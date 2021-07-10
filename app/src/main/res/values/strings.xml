@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Github Challenge</string>
+    <string name="users_title">Java Users</string>
+
+    <string name="no_network">No Network connection</string>
+    <string name="network_error">Network Error</string>
+    <string name="retry">RETRY</string>
+</resources>

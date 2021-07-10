@@ -1,0 +1,7 @@
+package me.jansv.challenge.glide;
+
+import com.bumptech.glide.annotation.GlideModule;
+import com.bumptech.glide.module.AppGlideModule;
+
+@GlideModule
+public class ChallengeGlideModule extends AppGlideModule { }
