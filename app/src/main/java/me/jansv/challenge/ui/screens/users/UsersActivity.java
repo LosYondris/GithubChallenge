@@ -90,7 +90,7 @@ public class UsersActivity extends AppCompatActivity implements UsersContract.Vi
 
         // this call is totally optional, you can without any damage comment it and uncomment the below one
         fetchUsersWhenReady();
-//        mPresenter.fetchUserList();
+       ///mPresenter.fetchUserList();
     }
 
     @Override
@@ -116,8 +116,6 @@ public class UsersActivity extends AppCompatActivity implements UsersContract.Vi
                 )
                 .show();
     }
-
-
 
 
     @Override

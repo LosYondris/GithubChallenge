@@ -1,5 +1,7 @@
 package me.jansv.challenge.ui.screens.users;
 
+import android.util.Log;
+
 import me.jansv.challenge.api.GithubService;
 import me.jansv.challenge.model.UserList;
 import retrofit2.Call;
@@ -32,6 +34,7 @@ public class UsersPresenter implements UsersContract.Presenter {
         api.getUserList(filter).enqueue(new Callback<UserList>() {
             @Override
             public void onResponse(Call<UserList> call, Response<UserList> response) {
+                Log.i("TAG","Valor Usuario: "+response);
                 if(!mView.isActive())
                     return;
                 if (response.isSuccessful()) {
